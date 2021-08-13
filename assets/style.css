@@ -1,0 +1,79 @@
+
+.form {
+  margin: 50px auto;
+  width: 300px;
+  padding: 30px 25px;
+  background: white;
+}
+h1.login-title {
+  color: #666;
+  margin: 0px auto 25px;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+}
+.but {
+  background-image: linear-gradient(to right, #ddb8ec 0, #f3b5ac 100%);
+}
+.login-input {
+  font-size: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 25px;
+  height: 25px;
+  width: calc(100% - 23px);
+}
+.login-input:focus {
+  border-color: #6e8095;
+  outline: none;
+}
+.login-button {
+  color: #fff;
+  background: #55a1ff;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+.link {
+  color: #666;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.link a {
+  color: #666;
+}
+h3 {
+  font-weight: normal;
+  text-align: center;
+}
+.form {
+  border-radius: 60px;
+  box-shadow: 3px 3px 4px 4px gray;
+}
+
+.d-flex button {
+  margin: 1.5em 0.5em;
+  padding: 0.3em 1.4em;
+}
+
+.d-flex table {
+  margin: 1em 10em;
+}
+
+.leftbtn {
+  align-self: flex-end;
+  float: right;
+  position: absolute;
+  right: 0;
+  margin-right: 50px;
+}
+.logout {
+  text-align: right;
+  padding: 20px;
+  color: black;
+}
